@@ -285,14 +285,14 @@ class ezcSignalCollection
         $parameters = array_slice( func_get_args(), 1 );
 
         // check if there are any static connections
-        $priStaticConnections = array();
-        if ( self::$staticConnectionsHolder == null )
+        $priStaticConnections = ezcSignalStaticConnections::getInstance()->getConnections( $this->identifier, $signal );
+        if ( self::$staticConnectionsHolder )
         {
-            $priStaticConnections = ezcSignalStaticConnections::getInstance()->getConnections( $this->identifier, $signal );
-        }
-        else
-        {
-            $priStaticConnections = self::$staticConnectionsHolder->getConnections( $this->identifier, $signal );
+            
+            foreach(self::$staticConnectionsHolder->getConnections( $this->identifier, $signal ) as $connection)
+            {
+                $priStaticConnections[] = $connection;
+            }
         }
 
         $hasPriStaticConnections = false;
