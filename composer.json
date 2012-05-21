@@ -38,7 +38,13 @@
     },
     "description": "The SignalSlot component implements a mechanism for inter and intra object communication through the use of signals and slots.",
     "homepage": "https://github.com/zetacomponents",
-    "license": "apache2",
+    "license": "Apache-2.0",
     "name": "zetacomponents/signal-slot",
-    "type": "library"
+    "type": "library",
+        "require": {
+            "zetacomponents/base": "*"
+        },
+        "require-dev": {
+            "zetacomponents/unit-test": "*"
+        }
 }
