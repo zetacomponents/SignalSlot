@@ -8,5 +8,7 @@ php:
   - hhvm
 
 before_script:
-- wget http://getcomposer.org/composer.phar
-- php composer.phar --dev install
+  - composer update
+
+script: 
+  - phpunit
