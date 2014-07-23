@@ -42,9 +42,9 @@
     "name": "zetacomponents/signal-slot",
     "type": "library",
         "require": {
-            "zetacomponents/base": "*"
+            "zetacomponents/base": "1.8.*"
         },
         "require-dev": {
-            "zetacomponents/unit-test": "*"
+            "zetacomponents/unit-test": "dev-master"
         }
 }
