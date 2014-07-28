@@ -41,10 +41,11 @@
     "license": "Apache-2.0",
     "name": "zetacomponents/signal-slot",
     "type": "library",
-        "require": {
-            "zetacomponents/base": "1.8.*"
-        },
-        "require-dev": {
-            "zetacomponents/unit-test": "dev-master"
-        }
+    "minimum-stability": "dev",
+    "require": {
+        "zetacomponents/base": "*"
+    },
+    "require-dev": {
+        "zetacomponents/unit-test": "*"
+    }
 }
