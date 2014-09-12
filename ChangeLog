@@ -1,4 +1,4 @@
-1.2 - Friday 12 Septembre 2014
+1.2.0 - Friday 12 September 2014
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Fixed issue #13658: tutorial_autoload.php fails under Windows.
