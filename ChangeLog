@@ -1,3 +1,15 @@
+1.2 - Friday 12 Septembre 2014
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #13658: tutorial_autoload.php fails under Windows.
+- Updated all the class diagrams.
+- Fixed: Adjusted source headers of SignalSlot to Apache license.
+- Updated: Moving copyright information to NOTICE files.
+- Remove custom test runner.
+- Added composer.json
+- Bugfix: some static connections were left over.
+- Added Travis config
+
 1.1.1 - Monday 05 May 2008
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
